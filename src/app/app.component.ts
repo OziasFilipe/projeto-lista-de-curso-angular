@@ -9,5 +9,5 @@ export class AppComponent  {
 
   name:String = 'angular!';
   
-/
+
 }
