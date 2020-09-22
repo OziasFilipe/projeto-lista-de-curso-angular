@@ -1,0 +1,35 @@
+
+<div class = "container">
+<table class = "table ">
+
+  <thead class = "thead-dark">
+        <tr>
+
+          <th>image </th>
+          <th>id </th>
+          <th>name </th>
+          <th>price </th>
+          <th>code </th>
+          <th>duration </th>
+          <th>rating  </th>
+          <th>releaseDate</th>
+    </tr>
+  </thead>
+
+
+  <tbody class = "table-warning">
+    <tr *ngFor="let cursoLista of cursos">
+          <td><img src = '{{cursoLista.image}}' height="30px"> </td>
+          <td>{{cursoLista.id}}</td>
+          <td>{{cursoLista.name}} </td>
+          <td>{{cursoLista.price}} </td>
+          <td>{{cursoLista.code}} </td>
+          <td>{{cursoLista.duration}} </td>
+          <td>{{cursoLista.rating}}  </td>
+          <td>{{cursoLista.releaseDate}}</td>
+    </tr>
+  </tbody>
+
+</table>
+
+</div>
