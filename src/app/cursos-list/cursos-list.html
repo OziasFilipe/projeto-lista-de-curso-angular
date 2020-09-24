@@ -19,7 +19,7 @@
 
   <tbody class = "table-warning">
     <tr *ngFor="let cursoLista of cursos">
-          <td><img src = '{{cursoLista.image}}' height="30px"> </td>
+          <td><img [src] = 'cursoLista.image' height="30px"> </td>
           <td>{{cursoLista.id}}</td>
           <td>{{cursoLista.name}} </td>
           <td>{{cursoLista.price}} </td>

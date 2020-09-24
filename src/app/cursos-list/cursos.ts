@@ -1,5 +1,6 @@
 export class Cursos {
 
+
   id:number;
   name:String;
   image:String;
@@ -8,7 +9,7 @@ export class Cursos {
   duration:number;
   rating:number; 
   releaseDate:String;
-
+  description:String;
 
 
 }
