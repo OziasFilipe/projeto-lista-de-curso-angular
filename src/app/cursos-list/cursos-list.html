@@ -1,9 +1,21 @@
 
-<div class = "container">
-<table class = "table ">
+<div class = "container ">
 
-  <thead class = "thead-dark">
-        <tr>
+<h3 class = "alert alert-dark"> Lista de Cursos! {{filterBY}} </h3>
+
+<div class = ''>
+
+<label>Consulta: </label>
+<div class = "">
+  <input [(ngModel)] = "filter" type="search" class = "alert alert-primary border border-danger">
+</div>
+
+</div>
+
+<table class = "table border border-dark">
+
+  <thead class = "thead-dark ">
+        <tr >
 
           <th>image </th>
           <th>id </th>
@@ -17,8 +29,8 @@
   </thead>
 
 
-  <tbody class = "table-warning">
-    <tr *ngFor="let cursoLista of cursos">
+  <tbody class = "table-secondary">
+    <tr *ngFor="let cursoLista of filterCursos">
           <td><img [src] = 'cursoLista.image' height="30px"> </td>
           <td>{{cursoLista.id}}</td>
           <td>{{cursoLista.name}} </td>

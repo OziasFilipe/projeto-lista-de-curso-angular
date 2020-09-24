@@ -2,8 +2,6 @@ import { Injectable } from "@angular/core";
 import { Cursos } from "./cursos";
 
 
-
-
 @Injectable ({
   providedIn:'root'
 })
@@ -17,7 +15,6 @@ RetornandoValor():Cursos[] {
 }
 
 }
-
 
  let CURSOS: Cursos[] = [
     {
