@@ -1,11 +1,9 @@
 
 <div class = "container ">
 
-<h3 class = "alert alert-dark"> Lista de Cursos! {{filterBY}} </h3>
+
 
 <div class = ''>
-
-<label>Consulta: </label>
 <div class = "">
   <input [(ngModel)] = "filter" type="search" class = "alert alert-primary border border-danger">
 </div>
@@ -15,8 +13,7 @@
 <table class = "table border border-dark">
 
   <thead class = "thead-dark ">
-        <tr >
-
+        <tr>
           <th>image </th>
           <th>id </th>
           <th>name </th>
@@ -35,10 +32,10 @@
           <td>{{cursoLista.id}}</td>
           <td>{{cursoLista.name}} </td>
           <td>{{cursoLista.price}} </td>
-          <td>{{cursoLista.code}} </td>
+          <td>{{cursoLista.code  }} </td>
           <td>{{cursoLista.duration}} </td>
           <td>{{cursoLista.rating}}  </td>
-          <td>{{cursoLista.releaseDate}}</td>
+          <td>{{cursoLista.releaseDate | date: "dd/MM/yyyy" }}</td>
     </tr>
   </tbody>
 
