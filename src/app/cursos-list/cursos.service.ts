@@ -26,7 +26,9 @@ RetornandoValor():Cursos[] {
         code: 'XLF-1212',
         rating: 3,
         price: 12.99,
-        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/cli.png'
+        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/cli.png',
+        option: 'Edit'
+        
     },
     {
         id: 2,
@@ -37,7 +39,8 @@ RetornandoValor():Cursos[] {
         code: 'DWQ-3412',
         rating: 3.5,
         price: 24.99,
-        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/animations.png'
+        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/animations.png',
+        option: 'Edit'
     },
     {
         id: 3,
@@ -48,7 +51,8 @@ RetornandoValor():Cursos[] {
         code: 'QPL-0913',
         rating: 4.0,
         price: 36.99,
-        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/http.png'
+        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/http.png',
+        option: 'Edit'
     },
     {
         id: 4,
@@ -59,7 +63,8 @@ RetornandoValor():Cursos[] {
         code: 'OHP-1095',
         rating: 4.5,
         price: 46.99,
-        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/router.png'
+        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/Img/router.png',
+        option: 'Edit'
     },
     {
         id: 5,
@@ -70,7 +75,8 @@ RetornandoValor():Cursos[] {
         code: 'PWY-9381',
         rating: 5,
         price: 56.99,
-        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/icon%20angular.png'
+        image: 'https://cdn.jsdelivr.net/gh/OziasFilipe/projeto-lista-de-curso-angular@master/src/assets/icon%20angular.png',
+        option: 'Edit'
 
     }
 ];

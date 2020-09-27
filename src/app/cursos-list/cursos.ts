@@ -10,6 +10,6 @@ export class Cursos {
   rating:number; 
   releaseDate:String;
   description:String;
-
+  option:String;
 
 }

@@ -22,6 +22,7 @@
           <th>duration </th>
           <th>rating  </th>
           <th>releaseDate</th>
+          <th>option</th>
     </tr>
   </thead>
 
@@ -36,6 +37,7 @@
           <td>{{cursoLista.duration}} </td>
           <td>{{cursoLista.rating}}  </td>
           <td>{{cursoLista.releaseDate | date: "dd/MM/yyyy" }}</td>
+          <th [routerLink]= "['./cursos/info',cursoLista.id]" > <button class = "btn btn-primary">{{cursoLista.option}} </button> </th>
     </tr>
   </tbody>
 
